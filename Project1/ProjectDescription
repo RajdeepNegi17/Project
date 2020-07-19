@@ -1,0 +1,31 @@
+1.	Recommender System 
+
+
+Introduction: 
+E-commerce companies like Amazon, flipkart, etc. now a days use different recommendation systems to provide their
+customer suggestions for the products of their interest. Recommender system creates a similarity between the user and items 
+and exploits the similarity between user/item to make recommendations.
+
+
+Problem Statement: 
+Design a recommender system using product reviews that provide the product recommendation to the user,
+of their interest or the popular products currently in the trend.
+
+
+Procedure:  
+First we will download the dataset. Our dataset contain User Id, Product Id, Rating and Time stamp.
+Then we will import some necessary libraries. Then afterwards we will be analyzing the rating of different products we have, no. of unique users and products, etc.
+We have dropped the Time Stamp column as it was not useful to us.
+
+Then we have created 3 types of recommender system-
+1. Popularity Based (recommends the items in trend now)
+2.  Collaborative Filtering (recommendation of products for people having similar tastes)
+3. Model based (training model to make them able to predict products of interest) 
+
+More Detailed information regarding the project code is mentioned in the comments alongside the code describing what a particular piece of code does and why we are doing it.
+
+
+Conclusion:
+We have created a recommender system that provides the recommendation of top products based on the user’s interest.Thus helping each specific user to find the right product of their need and interest.
+
+
