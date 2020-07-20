@@ -1,4 +1,4 @@
-1.	Recommender System 
+1.Recommender System 
 
 
 Introduction: 
@@ -13,7 +13,9 @@ of their interest or the popular products currently in the trend.
 
 
 Procedure:  
-First we will download the dataset. Our dataset contain User Id, Product Id, Rating and Time stamp.
+First we will download the dataset from kaggle.We will be using electronic items reviews dataset of Amazon reviews.
+
+Our dataset contain User Id, Product Id, Rating and Time stamp.
 Then we will import some necessary libraries. Then afterwards we will be analyzing the rating of different products we have, no. of unique users and products, etc.
 We have dropped the Time Stamp column as it was not useful to us.
 
@@ -22,7 +24,11 @@ Then we have created 3 types of recommender system-
 2.  Collaborative Filtering (recommendation of products for people having similar tastes)
 3. Model based (training model to make them able to predict products of interest) 
 
-More Detailed information regarding the project code is mentioned in the comments alongside the code describing what a particular piece of code does and why we are doing it.
+In the Popularity Based System first we are creating a dataframe of users who have given ratings 50 or more.Then we are finding the average rating ,total number of rating,etc. of the products and by the help of all this, popular products are being recommneded to the user.
+
+In the Collaborative Filtering, we are using KNNWithMeans of the Surprise library and by the help of that recommendations are shown on the basis of people having similar tastes of products.
+
+And in the Model Based System, we are doing data mining, we are using TruncatedSVD for decomposition of matrix, we are creating corelation matrix to observe the relation among the user and the products and thus recommending top products to the user of their interest.
 
 
 Conclusion:
