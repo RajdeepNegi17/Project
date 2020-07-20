@@ -10,7 +10,10 @@ Design a ML model that can distinguish between a fraudulent credit card transact
 
 
 Procedure:
-First of all we will download the datset.Our datset contains only numerical input variables which are the result of a PCA transformation.
+First of all we will download the datset.
+Link for our datset is "https://www.kaggle.com/mlg-ulb/creditcardfraud"
+
+Our datset contains only numerical input variables which are the result of a PCA transformation.
 We can clearly see that our datset is highly imbalanced so before creating the model we have to balance the datset.
 There are 2 ways of balancing an unbalanced dataset-
 1.Undersampling(removing the data from the higher class to make it comparable to the lower class) 
